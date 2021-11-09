@@ -1,0 +1,32 @@
+Comandos
+
+[git init] = inicializa o git em uma pasta
+[git add (arquivo)] = inclui arquivo ao conteúdo que faz parte dos arquivos internos reconhecidos 
+pelo GIT agora.
+[git add  */.] = inclui todos os arquivos presentes ao conteúdo que faz parte dos arquivos internos 
+reconhecidos pelo GIT agora.
+
+- Ao usar [git add], os arquivos saem da área de trabalho/diretório de trabalho e vão para um local intermediário,
+Staging Area.
+
+[git commit -m "mensagem"] = Mudança nos arquivos, identificada pela "mensagem"; seu estado atual é alterado,
+são direcionados para o repositório local(Local Repository) e é tirada uma foto(snapshot) com intuito de 
+registrar o estado atual de cada arquivo.
+
+[git branch -M main] = muda a branch de trabalho atual para a "main"
+[git branch -M master] = muda a branch de trabalho atual para a "master"
+
+- Criar um repositório no gitHub e copiar seu endereço(https:// ...)
+
+[git remote add origin https://link] = Https:// será substituido pelo link copiado anteriormente.
+Aqui nós criamos um apelido/ALIAS para o nosso local de trabalho, nesse caso seria origin, ai agora nos
+referímos a esse endereço apenas como origin, é mais prático.Ao término dessa etapa, os diretórios já estarão
+conectados.
+
+[git push origin *] = Aqui nós enviamos o trabalho/arquivos/modificações realizadas para nosso 
+repositório remoto.Push é empurrar, jogar para algum lugar. O "*" pode ser main ou master, depende de qual
+está em uso e se não houve mudança(git branch -M ...).
+
+[git clone https://] = Aqui, após criação de um repositório remoto, é copiado seu endereço e com isso podemos
+cloná-lo em nossa máquina. Assim ele fica disponível para qualquer tipo de uso e não reflete em mudanças
+no que se encontra originalmente remoto.
