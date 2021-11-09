@@ -2,7 +2,7 @@ Comandos
 
 [git init] = inicializa o git em uma pasta
 [git add (arquivo)] = inclui arquivo ao conteúdo que faz parte dos arquivos internos reconhecidos 
-pelo GIT agora.
+pelo GIT agora. Adicionou ao controle de versão local.
 [git add  */.] = inclui todos os arquivos presentes ao conteúdo que faz parte dos arquivos internos 
 reconhecidos pelo GIT agora.
 
